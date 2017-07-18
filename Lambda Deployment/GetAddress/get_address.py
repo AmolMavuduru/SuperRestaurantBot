@@ -11,9 +11,21 @@ def lambda_handler(event, context):
     location = slots['Location']
     restaurant_name = slots['RestaurantName']
 
-    query_result = google_places.nearby_search(
-        location=location, keyword=restaurant_name,
-        radius=20000, types=[types.TYPE_FOOD])
+    try:
+        query_result = google_places.nearby_search(
+            location=location, keyword=restaurant_name,
+            radius=20000, types=[types.TYPE_FOOD])
+    except:
+        return {  # If an error occurs it is probably because the user provided an invalid city.
+            "dialogAction": {
+                "type": "Close",
+                "fulfillmentState": "Fulfilled",
+                "message": {
+                "contentType": "PlainText",
+                "content": "Sorry I could not find anything with those details. The city you provided seems invalid."
+            }
+        }
+    }
 
     response = "I found the following places: "
 
