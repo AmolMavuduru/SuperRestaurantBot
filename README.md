@@ -10,13 +10,15 @@ has not yet become public on Facebook Messenger.
 - bot_definition.json - a JSON configuration file that describes the slots, intents, sample-utterances, and other details regarding the
 AWS Lex components of the bot.
 - Lambda Deployment - folder that contains the files necessary for creating lambda deployment packages for the lambda functions that
-fulfill each intent. This folder contains the following sub-directories:
+fulfill each intent. This folder contains the following sub-directories/zip files:
   - FindRestaurant - contains the deployment package for the Lambda function that fulfills the FindRestaurant intent:
       - The code for the lambda function is located in the find_food_lambda.py file.
   - GetReviews - contains the deployment package for the Lambda function that fulfils the GetReviews intent:
       - The code for the lambda function is located in the get_reviews.py file.
   - GetAddress - contains the deployment package for the Lambda function that fulfills the GetAddress intent:
       - The code for the lambda function is located in the get_address.py file.
+  - HelloRestaurantBot.zip - package for simple Lambda function that responds to a greeting.
+  - HelpRestaurantBot.zip - package for simple Lambda function that responds to a help request.
       
 ## Chatbot Design
 This chatbot contains three primary intents and two other intents that are just used for conversation. The three primary intents are:
