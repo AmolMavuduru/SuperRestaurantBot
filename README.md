@@ -32,8 +32,7 @@ Libraries/APIs used:
 - python's json library - used for dealing with JSON input and output.
 
 ## Testing Instructions for AWS Chatbot Challenge:
-If you are here as a judge for the AWS Chatbot Challenge, I have added the devpost Facebook id specified in the submission details
-as a tester since this application is not yet public. The Facebook page can be found at: https://www.facebook.com/Super-Restaurant-Bot-123122454967347/
+If you are here as a judge for the AWS Chatbot Challenge, this application is now public. The Facebook page can be found at: https://www.facebook.com/Super-Restaurant-Bot-123122454967347/
 Here is how to test this bot:
 - If you want to find a restaurant type something such as "Find a restaurant" and then the bot will prompt you for a city and the type of food
 you would prefer. If the city does not exist, an exception is triggered and the bot will tell you that no places were found and perhaps the city was
