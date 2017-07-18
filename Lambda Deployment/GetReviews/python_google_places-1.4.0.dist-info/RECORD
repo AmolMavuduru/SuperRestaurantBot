@@ -1,0 +1,15 @@
+googleplaces/__init__.py,sha256=5P4lMigAmQYk6DpIomvuhhdBHFKjtkiLCGppaA6IupI,43340
+googleplaces/lang.py,sha256=6jYfnppaH6-0gVfyDes691TuePh4PD_Y2dd_EAbTekQ,1026
+googleplaces/ranking.py,sha256=Grv9iPkbBfQcMOZw2NKjxkiLVmMM_KSt0bEtEvtq1_M,168
+googleplaces/types.py,sha256=eiW5Ox6-gUUVp2Mm2PzRmKnCxPALwm_5iJofy14_sCg,4566
+python_google_places-1.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+python_google_places-1.4.0.dist-info/METADATA,sha256=fDFziAWisgXDjMN54JBpvyGRn0DB0HYoSehm0qvZqWw,296
+python_google_places-1.4.0.dist-info/RECORD,,
+python_google_places-1.4.0.dist-info/WHEEL,sha256=AXucK5-TNISW1dQAdsyH02xCRCCE1VKjhXIOWMW_lxI,93
+python_google_places-1.4.0.dist-info/metadata.json,sha256=cQJ_iB3gW61k38Kks5LJgh1aZ8T5V7-uEGHBC5G35z8,486
+python_google_places-1.4.0.dist-info/top_level.txt,sha256=5xYx40OifsPYKoFMwL1JOwYZWBtWrUKopaiZNDD9eZ4,13
+python_google_places-1.4.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+googleplaces/__pycache__/lang.cpython-35.pyc,,
+googleplaces/__pycache__/__init__.cpython-35.pyc,,
+googleplaces/__pycache__/types.cpython-35.pyc,,
+googleplaces/__pycache__/ranking.cpython-35.pyc,,

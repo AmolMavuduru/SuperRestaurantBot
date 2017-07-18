@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: python-google-places
+Version: 1.4.0
+Summary: A simple wrapper around the Google Places API.
+Home-page: http://github.com/slimkrazy/python-google-places
+Author: Samuel Adu
+Author-email: sam@slimkrazy.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: six
+
+UNKNOWN
+
+
