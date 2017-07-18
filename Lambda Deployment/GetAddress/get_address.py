@@ -2,7 +2,7 @@ from googleplaces import GooglePlaces, types, lang
 import boto3
 import json
 
-YOUR_API_KEY = '<insert key here>'
+YOUR_API_KEY = '<insert key here>'  # My private API Key is not provided here for security reasons
 
 google_places = GooglePlaces(YOUR_API_KEY)
 
