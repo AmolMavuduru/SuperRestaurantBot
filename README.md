@@ -5,6 +5,10 @@ This chatbot was created using AWS Lex and AWS Lambda and is designed to functio
 The Super Restaurant Bot is capable to finding restaurants based on the food preference that the user specifies in any
 valid location and can also find reviews for specific restaurants. This application is now public and can be found on Facebook at: https://www.facebook.com/superrestaurantbot/ .
 
+**Update: This app is currently being reviewed again due to changes to Facebook's policies and is not yet live.**
+You can find a video demo of what this app previously looked like here: https://www.youtube.com/watch?v=MWA38f0uya0
+
+
 ## What is in this repository:
 - bot_definition.json - a JSON configuration file that describes the slots, intents, sample-utterances, and other details regarding the
 AWS Lex components of the bot.
